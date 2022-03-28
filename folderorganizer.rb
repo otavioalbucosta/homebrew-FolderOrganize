@@ -11,7 +11,7 @@ class Folderorganizer < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "FolderOrganizer"
+    bin.install "folder-organizer"
   end
 
   test do
