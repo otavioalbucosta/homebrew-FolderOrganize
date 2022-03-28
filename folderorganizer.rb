@@ -2,16 +2,16 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Folderorganizer < Formula
-  desc "Folderorganizer helps you organizing your MacOS folders!"
+  desc "FolderOrganizer helps you organizing your folders with easy commands!"
   homepage "https://github.com/otavioalbucosta/FolderOrganizer"
   url "https://github.com/otavioalbucosta/FolderOrganizer/releases/download/0.2.0/folder-organizer"
-  sha256 "47f705fb0280f7be2d029580f9ec5d7642179e4c67c347908d840a9aff4679d8"
+  sha256 "9ac86135f6d8951b8f2861bddcd6bab5a7c243a8f3fdbf7714118a2b728b45d9"
   license "MIT"
 
   # depends_on "cmake" => :build
 
   def install
-    bin.install "folder-organizer"
+    bin.install 'folder-organizer'
   end
 
   test do
