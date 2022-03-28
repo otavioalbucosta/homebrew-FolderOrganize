@@ -4,7 +4,7 @@
 class Folderorganizer < Formula
   desc "Folderorganizer helps you organizing your MacOS folders!"
   homepage "https://github.com/otavioalbucosta/FolderOrganizer"
-  url "https://github.com/otavioalbucosta/FolderOrganizer/archive/refs/tags/0.2.0.tar.gz"
+  url "https://github.com/otavioalbucosta/FolderOrganizer/releases/download/0.2.0/folder-organizer"
   sha256 "47f705fb0280f7be2d029580f9ec5d7642179e4c67c347908d840a9aff4679d8"
   license "MIT"
 
